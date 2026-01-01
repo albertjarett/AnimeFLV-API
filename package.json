@@ -1,17 +1,15 @@
 {
-    "name": "AnimeFLV-API",
-    "version": "1.0.0",
-    "description": "API AnimeFLV para Vercel",
-    "main": "api/index.js",
-    "scripts": {
-        "start": "node api/index.js",
-        "vercel-build": "echo 'No build needed'" 
-    },
-    "dependencies": {
-        "express": "^4.18.2",
-        "body-parser": "^1.20.0",
-        "axios": "^1.6.0",
-        "cheerio": "^1.0.0-rc.12",
-        "@vercel/node": "^3.0.0"
-    }
+  "name": "animeflv-api-android-backend",
+  "version": "1.0.0",
+  "main": "api/index.js",
+  "scripts": {
+    "start": "node api/index.js",
+    "vercel-build": "echo 'Skipping native builds'"
+  },
+  "dependencies": {
+    "express": "^4.19.2",
+    "axios": "^1.6.8",
+    "cheerio": "^1.0.0-rc.12",
+    "cors": "^2.8.5"
+  }
 }
