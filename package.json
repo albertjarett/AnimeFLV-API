@@ -1,11 +1,7 @@
 {
-  "name": "animeflv-api-android-backend",
+  "name": "animeflv-api-android",
   "version": "1.0.0",
   "main": "api/index.js",
-  "scripts": {
-    "start": "node api/index.js",
-    "vercel-build": "echo 'Skipping native builds'"
-  },
   "dependencies": {
     "express": "^4.19.2",
     "axios": "^1.6.8",
